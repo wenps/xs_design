@@ -1,17 +1,17 @@
-import { defineComponent as l, computed as n, openBlock as s, createElementBlock as p, normalizeClass as a, unref as o, toDisplayString as c } from "vue";
+import { defineComponent as o, computed as r, openBlock as s, createElementBlock as n, normalizeClass as a, toDisplayString as p } from "vue";
 import "./style/index.css";
-const d = l({ name: "xs-helloWorld" }), f = /* @__PURE__ */ l({
-  ...d,
+const c = o({ name: "xs-helloWorld" }), _ = /* @__PURE__ */ o({
+  ...c,
   props: {
-    type: null
+    type: {}
   },
-  setup(t) {
-    const r = t, e = n(() => r.type == "default");
-    return (m, u) => (s(), p("div", {
-      class: a(["xs-helloWorld", [o(e) ? "xs-helloWorld--primary" : ""]])
-    }, "helloWorld " + c(o(e)), 3));
+  setup(l) {
+    const t = l, e = r(() => t.type == "default");
+    return (d, m) => (s(), n("div", {
+      class: a(["xs-helloWorld", [e.value ? "xs-helloWorld--primary" : ""]])
+    }, "helloWorld " + p(e.value), 3));
   }
 });
 export {
-  f as default
+  _ as default
 };
