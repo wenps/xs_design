@@ -1,0 +1,41 @@
+# Installation
+> `npm install --save @types/gulp-less`
+
+# Summary
+This package contains type definitions for gulp-less (https://github.com/plus3network/gulp-less).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp-less.
+## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp-less/index.d.ts)
+````ts
+// Type definitions for gulp-less
+// Project: https://github.com/plus3network/gulp-less
+// Definitions by: Keita Kagurazaka <https://github.com/k-kagurazaka>
+// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+
+/// <reference types="node" />
+
+
+
+interface IOptions {
+    modifyVars?: {} | undefined;
+    paths?: string[] | undefined;
+    plugins?: any[] | undefined;
+    relativeUrls?: boolean | undefined;
+}
+
+declare function less(options?: IOptions): NodeJS.ReadWriteStream;
+
+declare namespace less { }
+
+export = less;
+
+````
+
+### Additional Details
+ * Last updated: Thu, 08 Jul 2021 14:22:30 GMT
+ * Dependencies: [@types/node](https://npmjs.com/package/@types/node)
+ * Global values: none
+
+# Credits
+These definitions were written by [Keita Kagurazaka](https://github.com/k-kagurazaka).

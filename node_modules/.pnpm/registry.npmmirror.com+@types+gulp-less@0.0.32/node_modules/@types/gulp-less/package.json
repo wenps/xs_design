@@ -1,0 +1,27 @@
+{
+    "name": "@types/gulp-less",
+    "version": "0.0.32",
+    "description": "TypeScript definitions for gulp-less",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp-less",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Keita Kagurazaka",
+            "url": "https://github.com/k-kagurazaka",
+            "githubUsername": "k-kagurazaka"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/gulp-less"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "2a1d12134c254b0e3b54fc992f438304e353891f4ed13fd1a963aeb4978f1dbf",
+    "typeScriptVersion": "3.6"
+}

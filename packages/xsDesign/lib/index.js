@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("./src/index.js"),t=require("./src/helloWorld/index.js"),r={install:l=>{for(const o in e)l.use(e[o])}};exports.HelloWorld=t.HelloWorld;exports.default=r;

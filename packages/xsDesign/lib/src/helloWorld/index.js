@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const l=require("../tools/withInstall.js"),t=require("./helloWorld.vue.js"),e=l.withInstall(t.default);exports.HelloWorld=e;exports.default=e;

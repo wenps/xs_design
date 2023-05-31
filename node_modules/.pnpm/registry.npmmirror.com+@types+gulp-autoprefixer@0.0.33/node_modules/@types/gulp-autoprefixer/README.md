@@ -1,0 +1,47 @@
+# Installation
+> `npm install --save @types/gulp-autoprefixer`
+
+# Summary
+This package contains type definitions for gulp-autoprefixer (https://github.com/sindresorhus/gulp-autoprefixer).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp-autoprefixer.
+## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp-autoprefixer/index.d.ts)
+````ts
+// Type definitions for gulp-autoprefixer
+// Project: https://github.com/sindresorhus/gulp-autoprefixer
+// Definitions by: Asana <https://asana.com>, Jordy van Dortmont <https://github.com/jordyvandortmont>
+// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// TypeScript Version: 2.2
+
+/// <reference types="node"/>
+
+
+declare namespace autoPrefixer {
+    interface Options {
+        env?: string | undefined;
+        cascade?: boolean | undefined;
+        add?: boolean | undefined;
+        remove?: boolean | undefined;
+        supports?: boolean | undefined;
+        flexbox?: boolean|"no-2009" | undefined;
+        grid?: false|"autoplace"|"no-autoplace" | undefined;
+        stats?: object | undefined;
+        browsers?: string[] | undefined;
+        ignoreUnknownVersions?: boolean | undefined;
+    }
+}
+
+declare function autoPrefixer(opts?: autoPrefixer.Options): NodeJS.ReadWriteStream;
+
+export = autoPrefixer;
+
+````
+
+### Additional Details
+ * Last updated: Thu, 08 Jul 2021 12:02:33 GMT
+ * Dependencies: [@types/node](https://npmjs.com/package/@types/node)
+ * Global values: none
+
+# Credits
+These definitions were written by [Asana](https://asana.com), and [Jordy van Dortmont](https://github.com/jordyvandortmont).

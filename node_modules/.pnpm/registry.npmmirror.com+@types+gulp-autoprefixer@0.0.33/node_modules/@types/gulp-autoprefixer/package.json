@@ -1,0 +1,31 @@
+{
+    "name": "@types/gulp-autoprefixer",
+    "version": "0.0.33",
+    "description": "TypeScript definitions for gulp-autoprefixer",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp-autoprefixer",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Asana",
+            "url": "https://asana.com"
+        },
+        {
+            "name": "Jordy van Dortmont",
+            "url": "https://github.com/jordyvandortmont",
+            "githubUsername": "jordyvandortmont"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/gulp-autoprefixer"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "319c5845aa6fd1df4b035c4f1828b7cb548867af491f2ade7370d4c910bff1ec",
+    "typeScriptVersion": "3.6"
+}
